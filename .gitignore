@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+# 忽略dist文件夹
+dist/
+
+# 忽略www下面的所有pdf文件
+
+www/*.pdf
+=======
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+tests/**/coverage/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+>>>>>>> f87cdd4 (人力资源项目初始化)
